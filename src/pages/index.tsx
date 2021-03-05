@@ -1,4 +1,4 @@
-import { Heading, Icon } from "@chakra-ui/react"
+import { Heading, Icon, Image } from "@chakra-ui/react"
 import { FaReact } from "react-icons/fa"
 
 import Layout from "~/src/components/Layout"
@@ -9,9 +9,10 @@ const Index = () => (
     {/* <Hero /> */}
 
     <Heading>
-      nextjs-and-chakra-ui-eslint-storybook-husky-template
+      CloudFlare page TEST
       <Icon as={FaReact} w={10} h={10} color="#0693E3" />
     </Heading>
+    <Image src="/screenshot 2021-03-02 12.31.01.png" />
 
     {/* <Footer>
       <Text>Next ❤️ Chakra</Text>
