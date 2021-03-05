@@ -1,8 +1,8 @@
-import { Heading, Icon, Image, Button, Link } from "@chakra-ui/react"
+import { Heading, Icon,  Button, Link } from "@chakra-ui/react"
 import { FaReact } from "react-icons/fa"
 
 import Layout from "~/src/components/Layout"
-import { CTA } from "~/src/components/CTA"
+// import { CTA } from "~/src/components/CTA"
 
 const Index = () => (
   <Layout>
