@@ -5,6 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export" : "next build && next export",
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx ",
     "lint:prettier": "prettier --check .",
